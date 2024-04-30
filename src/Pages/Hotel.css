@@ -1,0 +1,25 @@
+.Hotel-title{
+    position: relative;
+    top: 200px;
+    left: 800px;
+    font-size: 70px;
+}
+
+.HotelText{
+    position: relative;
+    font-size: large;
+    right: 600px;
+    width: 80%;
+    height: 40px;position: relative;
+}
+
+.HotelCardPosition{
+    position: relative;
+    top: 300px;
+    left: 200px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    z-index: -1;
+}
+

@@ -1,0 +1,113 @@
+.Login{
+    position: absolute;
+    height: 500px;
+    width: 450px;
+    bottom: 300px;
+    right: 700px;
+    background-color: rgb(255, 191, 72);
+}
+
+.TCBox{
+    width: 20p;
+
+}
+
+.checkbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: -70px;
+    left: -100px;
+}
+
+.Register{
+    position: absolute;
+    height: 500px;
+    width: 750px;
+    bottom: 300px;
+    right: 500px;
+    background-color: rgb(255, 191, 72);
+
+}
+.Register input{
+    position: relative;
+    width: 450px;
+    display: flex;
+    left: 150px;
+    
+    flex-direction: c;
+}
+
+.Register button{
+    position: relative;
+    left: 200px;
+    height: 30px;
+    width: 320px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.Register button:hover{
+    background-color: gray;
+}
+
+
+
+.Login input{
+    top: 80px;
+    position: relative;
+    left: 40px;
+    border: none;
+    
+}
+
+.Login button{
+    position: relative;
+    left: 40px;
+    top: 130px;
+    height: 40px;
+    border: none;
+  
+   
+}
+
+.Login button:hover{
+    background-color: rgb(163, 163, 163);
+    height: 50px;
+    transition: 0.5s;
+   
+}
+
+.Login_c{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    
+}
+
+.input{
+    height: 40px;
+    
+}
+
+.RegisterToggle button{
+    position: absolute;
+    background-color: none;
+    border: none;
+}
+
+.RegisterToggle{
+    position: relative;
+    display: flex;
+    top: 10px;
+    gap: 10px;
+    left: 250px;
+    border: none;
+    background-color: transparent;
+}
+
+.RegisterToggle{
+    color: blue;
+}

@@ -1,0 +1,115 @@
+.NavigationBar1 {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    opacity: 0.6;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-height: 100000px) {
+    .NavigationBar1 {
+        position: fixed;
+        background-color: black;
+        height: 90px;
+        width: 100%;
+
+    }
+}
+
+.NavButtons {
+    position: fixed;
+    left: 200px;
+    top: 20px;
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+    z-index: 4;
+}
+
+.NavButtons button {
+    width: 140px;
+    height: 40px;
+
+}
+
+.NavButtons button:hover {}
+
+
+.Navbutton-right {
+    position: relative;
+    left: 900px;
+    display: flex;
+    gap: 15px;
+    top: 0px;
+    flex-direction: row;
+    z-index: 2;
+
+}
+
+
+.Navbutton-right button {
+    background-color: var(--background-color, orange);
+    color: var(--text-color);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.Navbutton-right button:hover {
+    height: 50px;
+    width: 130px;
+    transition: 0.2s;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+@media screen and (max-width: 1450px) {
+    .NavButtons {
+        left: 0;
+        top: 15px;
+        opacity: 1;
+
+
+    }
+
+}
+
+.ShoppingBasketIconImg {
+    width: 30px;
+    height: 30px;
+}
+
+.ShoppingBasketIcon {
+    position: fixed;
+    top: 4%;
+    right: 430px;   
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    border: none;
+    z-index: 2;
+}
+
+.ShoppingBasketIcon:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+
+.logo {
+    position: fixed;
+    z-index: 100;
+    left: 20px;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}

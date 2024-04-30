@@ -1,0 +1,30 @@
+.EducationPageImage {
+    position: relative;
+    width: 90%;
+    height: 800px;
+    left: 100px;
+}
+
+.ArticleEd {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    left: 300px;
+    top: 150px;
+
+
+}
+
+.EdArticlesTitle {
+    position: relative;
+    top: 10px;
+    left: 700px;
+    font-size: xxx-large;
+}
+
+.TxtEd {
+    width: 50%;
+    position: relative;
+    left: 400px;
+}

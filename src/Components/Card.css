@@ -1,0 +1,23 @@
+.Card1 {
+    width: 350px;
+    height: 400px;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    position:relative;
+   z-index: 0;
+ 
+}
+
+.cardName{
+    position: relative;
+    left: 100px;
+    font-size: xx-large;
+}
+
+
+.Card1:hover {
+   
+    border: rgb(255, 200, 97) solid 6px;
+    position: relative;
+}

@@ -1,0 +1,5 @@
+.ThemeButton {
+  background-color: var(--background-color, orange);
+  color: var(--text-color, black);
+}
+

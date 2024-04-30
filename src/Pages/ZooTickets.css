@@ -1,0 +1,43 @@
+.Zoo-ticket{
+    position: relative;
+    border: solid black 2px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 40%;
+    justify-content: center;
+    left: 550px;
+    font-weight: 500;
+}
+
+.Zoo-ticket input{
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Zoo-ticket button{
+    border: none;
+    background-color: orange;
+
+}
+
+.Zoo-ticket button:hover{
+    background-color: rgb(151, 99, 1);
+}
+
+.Title-ZooTicket{
+    position: relative;
+    left: 830px;
+    top: 80px;
+}
+
+.ticket-price{
+    position: relative;
+    top: 1px;
+    width: 30px;
+    border: solid black 1px;
+
+}

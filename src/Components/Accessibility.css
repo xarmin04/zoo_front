@@ -1,0 +1,32 @@
+.Access_panel {
+    position: fixed;
+    right: 20px;
+    border-radius:100px ;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 95, 255);
+   
+    
+}
+
+.Bar {
+    position: fixed;
+    top: 800px;
+    right: 10px;
+    z-index: 1;
+    height: 0px;
+    overflow-x: hidden;
+
+}
+
+.Bar.Open {
+    border: black 3px solid;
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    transition: .6s;
+    overflow-x: hidden;
+    
+
+}

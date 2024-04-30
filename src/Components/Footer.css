@@ -1,0 +1,24 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: -1400px;
+    border: solid orange 5px;
+    background-color: orange;
+    height: 50px;
+    color: rgb(2, 137, 255);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+   
+}
+
+
+.footer button{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    border:none;
+    left: 300px;
+
+}
